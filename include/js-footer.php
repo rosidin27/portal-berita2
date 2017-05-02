@@ -1,0 +1,14 @@
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/sticky.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/retina.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/portfolio-main.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/jcarousel.responsive.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/main.js"></script>
+<script type="text/javascript" src="<?= $GLOBALS['BASE_URL'] ?>/assets/js/header-editable.min.js"></script>
