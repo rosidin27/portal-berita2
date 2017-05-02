@@ -1,0 +1,35 @@
+
+RewriteEngine On
+
+# This is the base directory of the site.
+RewriteBase /portal-berita2
+
+#All pages will rewrite to this url
+# NC : Untuk non case sensitive
+#RewriteRule ^([0-9a-zA-Z]+) index.php [NC,L]
+
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^berita index.php [NC,L]
+RewriteRule ^profil index.php [NC,L]
+RewriteRule ^sitemap index.php [NC,L]
+RewriteRule ^login index.php [NC,L]
+RewriteRule ^logout index.php [NC,L]
+#RewriteRule ^img config/error.php [NC,L]
+RewriteRule ^include config/error.php [NC,L]
+RewriteRule ^portofolio config/error.php [NC,L]
+RewriteRule ^halaman config/error.php [NC,L]
+
+#(?!captcha) : Tidak Sama dengan captcha maka error 404
+#RewriteRule ^assets/(?!captcha) config/error.php [NC,L]
+RewriteRule ^captcha/rand/([0-9a-zA-Z]+) assets/captcha/captcha_code_file.php?rand=$1 [NC,L]
+
+RewriteRule ^error404 config/error.php [NC,L]
+
+# No rewriting will be done here if the file exists
+RewriteCond %REQUEST_FILENAME !-f
+RewriteCond %REQUEST_FILENAME !-d
+
+#All pages will rewrite to this url
+#RewriteRule ^home /portal-berita2/index.php [NC,L]
+#RewriteRule ^profil /portal-berita2/index.php [NC,L]
+#RewriteRule .* /index.php L
